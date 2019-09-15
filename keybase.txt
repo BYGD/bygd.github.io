@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/c7c
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://c7c.me
+  * I am c7c (https://keybase.io/c7c) on keybase.
+  * I have a public key ASAIiLcepEO3sFYfNkfXmCa_fLcF5lcDss4g8gAeHoVzqAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208facd88aeae8b091971b76961e95c6b2b0fb6e53c1cd61726e82168c769413720a",
+      "host": "keybase.io",
+      "kid": "01200888b71ea443b7b0561f3647d79826bf7cb705e65703b2ce20f2001e1e8573a80a",
+      "uid": "2382b871b0564679e44f50ce3547d319",
+      "username": "c7c"
+    },
+    "merkle_root": {
+      "ctime": 1568564116,
+      "hash": "ec2d7f5293cc5e21a1ba162bc587638347de9809317c2aceffea2480e3a97a571864a8428f0090a5fce0e592cb4022ad73f6109d030ffdb13685ed47e4df07e0",
+      "hash_meta": "63b46669654463cd5db1afd1582db985fabc4b989b245f3f7a97558cddc00733",
+      "seqno": 7403427
+    },
+    "service": {
+      "entropy": "BmwZymLL64TZbpkT4HqI4zCo",
+      "hostname": "c7c.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.2"
+  },
+  "ctime": 1568564124,
+  "expire_in": 504576000,
+  "prev": "c944f247f176d8054d94c04cb92f9e4aed345725db001159bd1aaff8e7ef08b9",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCIi3HqRDt7BWHzZH15gmv3y3BeZXA7LOIPIAHh6Fc6gKp3BheWxvYWTESpcCFcQgyUTyR/F22AVNlMBMuS+eSu00VyXbABFZvRqv+OfvCLnEIC38b731FcS+yCx64Kev8DMglDfkSyLm84iDtcFnMSyrAgHCo3NpZ8RAIPbmFlSJ2HwR2nMIWkk8jQG9IthYc2/2KlczcFWcbPU/Y4/cdMZtdXD4DLPu1NIVNJdLhs95vQ15PSVlsIjuDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID0SUPBZTXZhgintUXuMd4p2tKwrt6z528Pt9a6rf/6Jo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/c7c
+
+==================================================================
