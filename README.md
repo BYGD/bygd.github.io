@@ -1,4 +1,4 @@
 # About
-个人主页
-欢迎copy
+HomePage
+
 采用MIT协议
