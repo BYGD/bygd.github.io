@@ -1,66 +1,59 @@
 <div align="center">
 
-<img src="./img/logo3.webp" width="140" style="border-radius: 50%;" alt="Logo" />
+<img src="./img/logo3.webp" width="130" />
 
 # Cangdog Home
 
 <p>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/BYGD/bygd.github.io?color=blue&style=flat-square" /></a>
-  <a href="https://125877.xyz"><img src="https://img.shields.io/website?url=https%3A%2F%2F125877.xyz&style=flat-square&label=125877.xyz" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/BYGD/bygd.github.io?style=flat-square&color=blue" /></a>
+  <a href="https://125877.xyz"><img src="https://img.shields.io/website?url=https%3A%2F%2F125877.xyz&style=flat-square&label=125877.xyz&color=brightgreen" /></a>
   <img src="https://img.shields.io/github/last-commit/BYGD/bygd.github.io?style=flat-square" />
   <img src="https://img.shields.io/github/repo-size/BYGD/bygd.github.io?style=flat-square" />
-  <img src="https://img.shields.io/badge/uptime-99.99%25-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/CDN-Cloudflare-f38020?style=flat-square" />
 </p>
 
-<p>
-  <em>Code Create Life</em>
-</p>
+<p><em>Code Create Life</em></p>
 
 </div>
 
 ---
 
-### 关于
+### Features
 
-我的个人主页，托管在 GitHub Pages，域名 125877.xyz。
+- **Bing 每日壁纸** — 每次刷新随机呈现 Bing 精选图片，1080p 秒出、4K 渐进预载
+- **一言格言** — 随机诗词名句，实时拉取 Hitokoto API
+- **响应式布局** — 桌面到手机全端自适应
+- **纯静态部署** — 零后端依赖，GitHub Pages 直出，Cloudflare CDN 加速
+- **自定义域名** — 125877.xyz
 
-### 亮点
+### Links
 
-| 功能 | 细节 |
+| 站点 | 地址 |
 |------|------|
-| 随机壁纸 | 调用 Bing 每日精选，1080p 秒出、4K 无缝预载 |
-| 一言语录 | 每次刷新随机诗词格言，来自 Hitokoto API |
-| 响应式 | 桌面 / 平板 / 手机全适配 |
-| 零依赖后端 | 纯静态，GitHub Pages 直接托管 |
-| HTTPS / HTTP2 | Cloudflare CDN 加速，全球秒开 |
-| 自定义域名 | 125877.xyz · 双栈 IPv4/IPv6 |
+| 主页 | [125877.xyz](https://125877.xyz) |
+| 博客 | [cangdog.com](https://www.cangdog.com) |
+| 简历 | [r.cangdog.com](https://r.cangdog.com) |
+| GitHub | [@BYGD](https://github.com/BYGD) |
 
-### 架构
+### Project Structure
 
 ```
 bygd.github.io
-├── index.html              # 唯二的 HTML 页面
-├── 404.html                # 自定义错误页
+├── index.html
+├── 404.html
+├── CNAME
 ├── assets/
-│   ├── css/                # 样式表
-│   │   ├── vno.css         #   主题核心
-│   │   ├── iconfont.css    #   图标字体
-│   │   └── onlinewebfonts.css
-│   ├── js/
-│   │   ├── main.js         #   背景图 · 一言 · 动效
-│   │   ├── jquery.min.js
-│   │   └── fetch.min.js    #   IE 兼容
+│   ├── css/                # vno.css · iconfont.css · onlinewebfonts.css
+│   ├── js/                 # main.js · jquery.min.js · fetch.min.js
 │   └── fonts/              # 图标字体
-├── img/                    # 站内图片 & Logo
-├── touxiang/               # 头像
-├── CNAME                   # 自定义域名
-└── README.md
+├── img/                    # Logo 及网站图片
+└── touxiang/               # 头像
 ```
 
-### 技术栈
+### Tech Stack
 
 `HTML5` `CSS3` `JavaScript` `jQuery` `Bing Image API` `Hitokoto API` `GitHub Pages` `Cloudflare`
 
-### 许可
+### License
 
 MIT © [Cangdog](https://github.com/BYGD)
