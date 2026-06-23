@@ -32,7 +32,6 @@
 |------|------|
 | 主页 | [125877.xyz](https://125877.xyz) |
 | 博客 | [cangdog.com](https://www.cangdog.com) |
-| 简历 | [r.cangdog.com](https://r.cangdog.com) |
 | GitHub | [@BYGD](https://github.com/BYGD) |
 
 ### Project Structure
