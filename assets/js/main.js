@@ -41,8 +41,8 @@
 		
 		/**
 		 * 随机背景图
-		 * 优先从 Bing 每日壁纸中随机选取一张
-		 * 失败时 fallback 到 Lorem Picsum 随机图
+		 * 优先从 Bing 每日壁纸中随机选取 UHD (4K) 分辨率
+		 * 失败时 fallback 到 Lorem Picsum 高分随机图
 		 */
 		var $panel = $('#panel');
 		var bingApi = 'https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
@@ -57,12 +57,19 @@
 				var images = result.images;
 				if (images && images.length > 0) {
 					var idx = Math.floor(Math.random() * images.length);
-					var url = "https://www.bing.com" + images[idx].url;
+					var item = images[idx];
+					// 用 urlbase 构造 UHD (4K) 分辨率，比默认 1920x1080 清晰很多
+					var url;
+					if (item.urlbase) {
+						url = "https://www.bing.com" + item.urlbase + "_UHD.jpg";
+					} else {
+						url = "https://www.bing.com" + item.url;
+					}
 					setBackground(url);
 				}
 			}).fail(function () {
-				// Fallback: Lorem Picsum 随机图片
-				var fallback = 'https://picsum.photos/1920/1080?random=' + Date.now();
+				// Fallback: Lorem Picsum 2K 随机图片
+				var fallback = 'https://picsum.photos/2560/1440?random=' + Date.now();
 				setBackground(fallback);
 			});
 		}
